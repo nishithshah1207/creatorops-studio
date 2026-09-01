@@ -32,6 +32,10 @@ http://localhost:4173
 npm test
 ```
 
+## Screenshots
+
+![CreatorOps Studio Dashboard](docs/assets/creatorops-studio-home.png)
+
 ## API overview
 
 ```text
