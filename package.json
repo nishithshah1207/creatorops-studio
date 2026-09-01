@@ -1,0 +1,21 @@
+{
+  "name": "creatorops-studio",
+  "version": "1.0.0",
+  "description": "A full-stack creator commerce operations sample with AI-assisted product and campaign workflows.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "full-stack",
+    "creator-commerce",
+    "ai-tools",
+    "node"
+  ],
+  "author": "Harshad",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
