@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CreatorOps Studio</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace">
+        <div class="masthead">
+          <p class="eyebrow">Creator commerce operations</p>
+          <h1>CreatorOps Studio</h1>
+          <p>
+            Generate store listings, plan lifecycle emails, and read order signals from one focused
+            workspace.
+          </p>
+        </div>
+
+        <section class="panel grid-two" aria-label="Product listing generator">
+          <form id="listing-form" class="tool-form">
+            <div>
+              <p class="section-label">AI listing tool</p>
+              <h2>Product copy</h2>
+            </div>
+            <label>
+              Product name
+              <input name="name" value="Holographic creator sticker pack" required />
+            </label>
+            <label>
+              Audience
+              <input name="audience" value="independent artists" required />
+            </label>
+            <label>
+              Features
+              <textarea name="features" required>weatherproof vinyl, fast reorder workflow, premium holographic finish</textarea>
+            </label>
+            <label>
+              Tone
+              <select name="tone">
+                <option value="confident">Confident</option>
+                <option value="playful">Playful</option>
+                <option value="premium">Premium</option>
+              </select>
+            </label>
+            <button type="submit">Generate listing</button>
+          </form>
+          <article class="result-card" id="listing-result">
+            <p class="muted">Generated listing output will appear here.</p>
+          </article>
+        </section>
+
+        <section class="panel grid-two" aria-label="Campaign planner">
+          <form id="campaign-form" class="tool-form">
+            <div>
+              <p class="section-label">Email workflow</p>
+              <h2>Campaign plan</h2>
+            </div>
+            <label>
+              Goal
+              <input name="goal" value="increase repeat orders from past buyers" required />
+            </label>
+            <label>
+              Audience
+              <input name="audience" value="store owners and merch sellers" required />
+            </label>
+            <label>
+              Offer
+              <input name="offer" value="limited-time reorder discount" required />
+            </label>
+            <button type="submit">Plan campaign</button>
+          </form>
+          <article class="result-card" id="campaign-result">
+            <p class="muted">Campaign sequence output will appear here.</p>
+          </article>
+        </section>
+      </section>
+
+      <aside class="insights" aria-label="Order insights">
+        <p class="section-label">Store intelligence</p>
+        <h2>Order summary</h2>
+        <div id="order-summary" class="metric-grid"></div>
+        <p id="recommendation" class="recommendation"></p>
+      </aside>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>
