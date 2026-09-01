@@ -34,7 +34,12 @@ npm test
 
 ## Screenshots
 
-![CreatorOps Studio Dashboard](docs/assets/creatorops-studio-home.png)
+(docs/assets/image1.png)
+(docs/assets/image2.png)
+(docs/assets/image3.png)
+(docs/assets/image4.png)
+(docs/assets/image5.png)
+(docs/assets/image6.png)
 
 ## API overview
 
