@@ -35,11 +35,16 @@ npm test
 ## Screenshots
 
 ![](docs/assets/image1.png)
-(docs/assets/image2.png)
-(docs/assets/image3.png)
-(docs/assets/image4.png)
-(docs/assets/image5.png)
-(docs/assets/image6.png)
+
+![](docs/assets/image2.png)
+
+![](docs/assets/image3.png)
+
+![](docs/assets/image4.png)
+
+![](docs/assets/image5.png)
+
+![](docs/assets/image6.png)
 
 ## API overview
 
