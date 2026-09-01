@@ -2,11 +2,11 @@
 
 CreatorOps Studio is a full-stack code sample for a creator-commerce operations suite. It combines store listing generation, lifecycle email planning, and order insights in one small but complete application.
 
-The project is intentionally dependency-free so reviewers can run it quickly and inspect the implementation without setup noise.
+// The project is intentionally dependency-free so reviewers can run it quickly and inspect the implementation without setup noise.
 
 ## Why this project
 
-Sticker Mule's software engineer role describes work on stores, AI tools, email products, and business software for creators. This project mirrors that product surface in a compact sample:
+This project describes work on stores, AI tools, email products, and business software for creators. It mirrors that product surface in a compact sample:
 
 - A product listing generator for creator stores.
 - A campaign planner for lifecycle and reorder emails.
